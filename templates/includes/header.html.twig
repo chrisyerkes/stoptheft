@@ -1,0 +1,586 @@
+<header id="MainHeader">
+	<nav class="navbar navbar-expand-lg main-nav">
+		<div class="container">
+			<a class="navbar-brand" href="https://www.stoptheft.com/"
+				><img
+					src="{{ file_url(directory ~ '/images/logo_header.png') }}"
+					alt="STOP. Security Tracking of Office Property."
+			/></a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-bs-toggle="collapse"
+				data-bs-target="#navbarNav"
+				aria-controls="navbarNav"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a
+							class="nav-link active"
+							aria-current="page"
+							href="https://www.stoptheft.com/sp"
+							>Products</a
+						>
+						<ul class="mega-sub-menu-wrapper">
+							<li class="mega-menu-row container">
+								<ul class="mega-sub-menu">
+									<li class="mega-sub-menu-column">
+										{{ page.section_dynamic_products_menu_html }}
+										{# <ul class="sub-menu">
+											<li class="nav-item">
+												<a
+													class="nav-link"
+													href="https://www.stoptheft.com/sp"
+													data-link="content01"
+													>Products
+													Overview</a
+												>
+											</li>
+											<li class="nav-item">
+												<a
+													class="nav-link"
+													href="https://www.stoptheft.com/sp"
+													data-link="content02"
+													>STOP Plates &amp;
+													Locks</a
+												>
+												<ul class="sub-menu">
+													<li
+														class="nav-item"
+													>
+														<a
+															class="nav-link"
+															href="https://www.stoptheft.com/sp"
+															data-link="content02"
+															>STOP
+															Security
+															Plate</a
+														>
+													</li>
+													<li
+														class="nav-item"
+													>
+														<a
+															class="nav-link"
+															href="https://www.stoptheft.com/ssp"
+															data-link="content03"
+															>STOP Small
+															Security
+															Plate</a
+														>
+													</li>
+													<li
+														class="nav-item"
+													>
+														<a
+															class="nav-link"
+															href="https://www.stoptheft.com/sl"
+															data-link="content04"
+															>STOP
+															Lock</a
+														>
+													</li>
+												</ul>
+											</li>
+											<li class="nav-item">
+												<a
+													class="nav-link"
+													href="https://www.stoptheft.com/stop-monitor"
+													data-link="content05"
+													>STOP Monitor</a
+												>
+												<ul class="sub-menu">
+													<li
+														class="nav-item"
+													>
+														<a
+															class="nav-link"
+															href="https://www.stoptheft.com/stop-monitor-standard"
+															data-link="content05"
+															>STOP
+															Monitor</a
+														>
+													</li>
+													<li
+														class="nav-item"
+													>
+														<a
+															class="nav-link"
+															href="https://www.stoptheft.com/stop-monitor"
+															data-link="content06"
+															>STOP
+															Monitor
+															Pro</a
+														>
+													</li>
+												</ul>
+											</li>
+											<li class="nav-item">
+												<a
+													class="nav-link"
+													href="https://www.stoptheft.com/products/Stop-Flex-Tag"
+													data-link="content07"
+													>STOP for Schools</a
+												>
+												<ul class="sub-menu">
+													<li
+														class="nav-item"
+													>
+														<a
+															class="nav-link"
+															href="https://www.stoptheft.com/products/Stop-Flex-Tag"
+															data-link="conten07"
+															>STOP
+															Flex Tag</a
+														>
+													</li>
+												</ul>
+											</li>
+										</ul> #}
+									</li>
+									<li class="mega-sub-menu-column">
+										{{ page.section_dynamic_products_supporting_information_html }}
+										{# <div
+											class="card stop-gray-card active"
+											data-nav-target="content01"
+										>
+											<div
+												class="row align-items-center"
+											>
+												<div class="col-md-7">
+													<img
+														src="{{ file_url(directory ~ '/images/fpo_stop-security-plate.png') }}"
+														class="img-fluid rounded-start"
+														alt="Stop Security Plate"
+													/>
+												</div>
+												<div class="col-md-5">
+													<div
+														class="card-body"
+													>
+														<h3
+															class="card-title"
+														>
+															STOP
+															Security
+															Plate
+														</h3>
+														<p
+															class="card-text"
+														>
+															Our aluminum
+															STOP
+															Security
+															Plate, with
+															its bold,
+															dissuasive
+															warning,
+															full
+															recovery
+															capabilities,
+															and
+															permanently
+															etched
+															tattoo
+															deprives
+															thieves of
+															anything to
+															gain from
+															theft.
+														</p>
+														<a
+															href="https://www.stoptheft.com/sp"
+															class="btn btn-primary arrow-right"
+															>More</a
+														>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="card stop-white-card"
+											data-nav-target="content02"
+										>
+											<div
+												class="row align-items-center"
+											>
+												<div class="col-md-5">
+													<img
+														src="{{ file_url(directory ~ '/images/fpo_stop-security-plate-ro.jpg') }}"
+														class="img-fluid rounded-start"
+														alt="Stop Security Plate"
+													/>
+												</div>
+												<div class="col-md-5">
+													<div
+														class="card-body"
+													>
+														<h3
+															class="card-title"
+														>
+															STOP
+															Security
+															Plate
+														</h3>
+														<p
+															class="card-text"
+														>
+															Our aluminum
+															STOP
+															Security
+															Plate, with
+															its bold,
+															dissuasive
+															warning,
+															full
+															recovery
+															capabilities,
+															and
+															permanently
+															etched
+															tattoo
+															deprives
+															thieves of
+															anything to
+															gain from
+															theft.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="card stop-white-card"
+											data-nav-target="content03"
+										>
+											<div
+												class="row align-items-center"
+											>
+												<div class="col-md-5">
+													<img
+														src="{{ file_url(directory ~ '/images/fpo_stop-small-security-plate.jpg') }}"
+														class="img-fluid rounded-start"
+														alt="STOP Small Security Plate"
+													/>
+												</div>
+												<div class="col-md-5">
+													<div
+														class="card-body"
+													>
+														<h3
+															class="card-title"
+														>
+															STOP Small
+															Security
+															Plate
+														</h3>
+														<p
+															class="card-text"
+														>
+															Our aluminum
+															STOP
+															Security
+															Plate, with
+															its bold,
+															dissuasive
+															warning,
+															full
+															recovery
+															capabilities,
+															and
+															permanently
+															etched
+															tattoo
+															deprives
+															thieves of
+															anything to
+															gain from
+															theft.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="card stop-white-card"
+											data-nav-target="content04"
+										>
+											<div
+												class="row align-items-center"
+											>
+												<div class="col-md-5">
+													<img
+														src="{{ file_url(directory ~ '/images/fpo_stop-lock.jpg') }}"
+														class="img-fluid rounded-start"
+														alt="Stop Lock"
+													/>
+												</div>
+												<div class="col-md-5">
+													<div
+														class="card-body"
+													>
+														<h3
+															class="card-title"
+														>
+															STOP Lock
+														</h3>
+														<p
+															class="card-text"
+														>
+															Our aluminum
+															STOP
+															Security
+															Plate, with
+															its bold,
+															dissuasive
+															warning,
+															full
+															recovery
+															capabilities,
+															and
+															permanently
+															etched
+															tattoo
+															deprives
+															thieves of
+															anything to
+															gain from
+															theft.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="card stop-white-card"
+											data-nav-target="content05"
+										>
+											<div
+												class="row align-items-center"
+											>
+												<div class="col-md-5">
+													<img
+														src="{{ file_url(directory ~ '/images/fpo_stop-monitor.jpg') }}"
+														class="img-fluid rounded-start"
+														alt="Stop Monitor"
+													/>
+												</div>
+												<div class="col-md-5">
+													<div
+														class="card-body"
+													>
+														<h3
+															class="card-title"
+														>
+															STOP Monitor
+														</h3>
+														<p
+															class="card-text"
+														>
+															Our aluminum
+															STOP
+															Security
+															Plate, with
+															its bold,
+															dissuasive
+															warning,
+															full
+															recovery
+															capabilities,
+															and
+															permanently
+															etched
+															tattoo
+															deprives
+															thieves of
+															anything to
+															gain from
+															theft.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="card stop-white-card"
+											data-nav-target="content06"
+										>
+											<div
+												class="row align-items-center"
+											>
+												<div class="col-md-5">
+													<img
+														src="{{ file_url(directory ~ '/images/fpo_stop-monitor-pro.jpg') }}"
+														class="img-fluid rounded-start"
+														alt="Stop Monitor Pro"
+													/>
+												</div>
+												<div class="col-md-5">
+													<div
+														class="card-body"
+													>
+														<h3
+															class="card-title"
+														>
+															STOP Monitor
+															Pro
+														</h3>
+														<p
+															class="card-text"
+														>
+															Our aluminum
+															STOP
+															Security
+															Plate, with
+															its bold,
+															dissuasive
+															warning,
+															full
+															recovery
+															capabilities,
+															and
+															permanently
+															etched
+															tattoo
+															deprives
+															thieves of
+															anything to
+															gain from
+															theft.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div
+											class="card stop-white-card"
+											data-nav-target="content07"
+										>
+											<div
+												class="row align-items-center"
+											>
+												<div class="col-md-5">
+													<img
+														src="{{ file_url(directory ~ '/images/fpo_stop-flex-tag.jpg') }}"
+														class="img-fluid rounded-start"
+														alt="Stop Flex Tag"
+													/>
+												</div>
+												<div class="col-md-5">
+													<div
+														class="card-body"
+													>
+														<h3
+															class="card-title"
+														>
+															STOP Flex Tag
+														</h3>
+														<p
+															class="card-text"
+														>
+															Our aluminum
+															STOP
+															Security
+															Plate, with
+															its bold,
+															dissuasive
+															warning,
+															full
+															recovery
+															capabilities,
+															and
+															permanently
+															etched
+															tattoo
+															deprives
+															thieves of
+															anything to
+															gain from
+															theft.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div> #}
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						{# <a class="nav-link" href="https://www.stoptheft.com/about">About</a>
+						<ul class="sub-menu">
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.stoptheft.com/about"
+									>About STOP</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.stoptheft.com/recovery-stories"
+									>Recovery Stories</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.stoptheft.com/about/our-clients"
+									>Our Clients</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.stoptheft.com/testimonials"
+									>Testimonials</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.stoptheft.com/about"
+									>Partners</a
+								>
+						</ul> #}
+						{{ page.section_about_menu }}
+					</li>
+					<li class="nav-item">
+						{# <a class="nav-link" href="https://www.stoptheft.com/support">Support</a>
+						<ul class="sub-menu">
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.stoptheft.com/support"
+									>Get Help</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.stoptheft.com/support">FAQs</a>
+							</li>
+						</ul> #}
+						{{ page.section_support_menu }}
+					</li>
+					<li class="nav-item">
+						{# <a class="nav-link" href="https://www.stoptheft.com/contact">Contact</a> #}
+						{{ page.section_contact_menu }}
+					</li>
+					<li class="nav-item">
+						<a class="nav-link btn header-btn" href="https://www.stoptheft.com/support/register-login"
+							>My Account</a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link btn header-cart-btn" href="https://www.stoptheft.com/catalog"
+							><svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 576 512"
+							>
+								<!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.-->
+								<path
+									fill="#000000"
+									d="M24 0C10.7 0 0 10.7 0 24S10.7 48 24 48H69.5c3.8 0 7.1 2.7 7.9 6.5l51.6 271c6.5 34 36.2 58.5 70.7 58.5H488c13.3 0 24-10.7 24-24s-10.7-24-24-24H199.7c-11.5 0-21.4-8.2-23.6-19.5L170.7 288H459.2c32.6 0 61.1-21.8 69.5-53.3l41-152.3C576.6 57 557.4 32 531.1 32h-411C111 12.8 91.6 0 69.5 0H24zM131.1 80H520.7L482.4 222.2c-2.8 10.5-12.3 17.8-23.2 17.8H161.6L131.1 80zM176 512a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm336-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0z"
+								/>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>

@@ -1,0 +1,25 @@
+name: STOPTheft
+type: theme
+description: 'A custom theme based on stopthefts new 2024 design.'
+core_version_requirement: ^10
+package: Custom
+base theme: stark
+libraries:
+  - mytheme/global-styling
+  - mytheme/google-fonts
+component-libraries:
+  includes:
+    paths: 
+      - templates/includes
+regions:
+  section_about_menu: About Menu Section
+  section_support_menu: Support Menu Section
+  section_contact_menu: Contact Menu Section
+  section_dynamic_products_menu_html: Dynamic Products Menu Section (HTML)
+  section_dynamic_products_supporting_information_html: Supporting Dynamic Products Information Menu Section (HTML)
+# Preconnect to load fonts faster
+http_header:
+  - name: Link
+    value: '<https://fonts.googleapis.com>; rel=preconnect; crossorigin'
+  - name: Link
+    value: '<https://fonts.gstatic.com>; rel=preconnect; crossorigin'

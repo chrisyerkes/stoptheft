@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    {{ page.head }}
+</head>
+<body>
+    <header>
+        {% include '@mytheme/includes/header.html.twig' %}
+    </header>
+
+    <main>
+			<section class="hero">
+				<div class="container hero-content-wrapper">
+					<div class="hero-protected-badge">
+						<strong>3,057,959</strong><span>Devices Protected</span>
+					</div>
+					<div class="row">
+						<div class="col hero-content-text">
+							<h1>Secure your tech.</h1>
+							<h2>
+								Proven theft deterrence and recovery for laptops
+								and other mobile devices.
+							</h2>
+							<p>
+								Comprehensive yet simple and cost-effective
+								approach to asset management and protection,
+								scalable from single-user to enterprises.
+							</p>
+							<a
+								href="#"
+								class="btn btn-white-outline arrow-right"
+								>Shop STOP Security Plates</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="recent-recovery-bar">
+					<div class="container">
+						<div class="recovery-label">Most Recent Recovery:</div>
+						<div class="recovery-badge">3 days</div>
+						<div class="recoveries-button">
+							<a href="#" class="btn btn-text arrow-right"
+								>View more recent recoveries</a
+							>
+						</div>
+					</div>
+				</div>
+				<img
+					src="{{ file_url(directory ~ '/images/fpo_stop-hero.jpg') }}"
+					alt="Secure your tech."
+					class="hero-image"
+				/>
+			</section>
+			<section class="content-section four-points">
+				<div class="container">
+					<div class="row four-point-section">
+						<div class="col intro">
+							<h3>
+								STOP&rsquo;s 4-Point Comprehensive Security
+								Solution
+							</h3>
+							<p>
+								<a href="#">STOP Security Plates</a> give you
+								piece of mind with a time-proven, multilayered
+								anti-theft, recovery and inventory management
+								system. Our serialized STOP Security Plates
+								deter and protect your device from theft and
+								provides for loss recovery. Our
+								<a href="#">STOPMonitor</a> software manages and
+								remotely tracks devices while safeguarding your
+								valuable data.
+							</p>
+						</div>
+					</div>
+					<div
+						class="row align-items-center four-point-section supporting-graphic-left"
+					>
+						<div class="col-5 supporting-graphic">
+							<img
+								src="{{ file_url(directory ~ '/images/supporting-graphic_point01.png') }}"
+								alt="1. Prevent Supporting Graphic"
+							/>
+						</div>
+						<div class="col-7 supporting-content">
+							<p class="section-title">
+								<strong>Prevent</strong>
+							</p>
+							<h3>
+								Thieves don&rsquo;t steal what they can&rsquo;t
+								sell.
+							</h3>
+							<h4>Deter would-be thieves.</h4>
+							<p>
+								Our permanently bonded aluminum Security Plate
+								is extremely difficult to remove, and the bold
+								dissuasive message warns thieves the device is
+								registered, monitored and virtually impossible
+								to sell illegally.
+							</p>
+							<p>
+								<a
+									href="#"
+									class="btn btn-secondary-outline arrow-right"
+									>Learn more</a
+								>
+							</p>
+						</div>
+					</div>
+					<div
+						class="row align-items-center four-point-section supporting-graphic-right"
+					>
+						<div class="col-5 supporting-graphic">
+							<img
+								src="{{ file_url(directory ~ '/images/supporting-graphic_point02.png') }}"
+								alt="2. Protect Supporting Graphic"
+							/>
+						</div>
+						<div class="col-7 supporting-content">
+							<p class="section-title">
+								<strong>Protect</strong>
+							</p>
+							<h3>
+								Devalued for criminal sale &ndash; permanently.
+							</h3>
+							<h4>Protect from illicit resale.</h4>
+							<p>
+								If the rugged STOP Security Plate is forcefully
+								removed, an indelible red &ldquo;Stolen
+								Property&rdquo; tattoo is revealed, rendering
+								the device useless to thieves by eliminating
+								illicit resale value.
+							</p>
+							<p>
+								<a
+									href="#"
+									class="btn btn-secondary-outline arrow-right"
+									>Learn more</a
+								>
+							</p>
+						</div>
+					</div>
+					<div
+						class="row align-items-center four-point-section supporting-graphic-left"
+					>
+						<div class="col-5 supporting-graphic">
+							<img
+								src="{{ file_url(directory ~ '/images/supporting-graphic_point03.png') }}"
+								alt="3. Recovery Supporting Graphic"
+							/>
+						</div>
+						<div class="col-7 supporting-content">
+							<p class="section-title">
+								<strong>Recovery</strong>
+							</p>
+							<h3>Get back what&rsquo;s yours.</h3>
+							<h4>Recover your lost STOP-tagged devices.</h4>
+							<p>
+								STOP&rsquo;s 24/7 Recovery Hotline and Secure
+								Online Registration Database facilitate the
+								return of lost, stolen and found devices to the
+								rightful owners. As illustrated by our frequent
+								<a href="#">recovery stories</a>, the STOP
+								system facilitates the return of lost devices.
+								The result is a dramatic decrease in thefts and
+								losses.
+							</p>
+							<p>
+								<a
+									href="#"
+									class="btn btn-secondary-outline arrow-right"
+									>Learn more</a
+								>
+							</p>
+						</div>
+					</div>
+					<div
+						class="row align-items-center four-point-section supporting-graphic-right"
+					>
+						<div class="col-5 supporting-graphic">
+							<img
+								src="{{ file_url(directory ~ '/images/supporting-graphic_point04.png') }}"
+								alt="4. Monitoring Supporting Graphic"
+							/>
+						</div>
+						<div class="col-7 supporting-content">
+							<p class="section-title">
+								<strong>Monitoring</strong>
+							</p>
+							<h3>
+								Manage, track and safeguard your devices and
+								data remotely.
+							</h3>
+							<h4>
+								STOPMonitor provides real-time asset management
+								and device tracking functionality.
+							</h4>
+							<p>
+								The STOPMonitor software provides an enterprise
+								console for managing your fleet of assets. It
+								also can geolocate the devices and remotely and
+								reversibly encrypt and boot lock the hard drive.
+							</p>
+							<p>
+								<a
+									href="#"
+									class="btn btn-secondary-outline arrow-right"
+									>Learn more</a
+								>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="content-section protection-options">
+				<div class="container protection-options-text-wrapper">
+					<div class="row">
+						<div class="col intro">
+							<h2>
+								How to best protect my devices with STOP&rsquo;s
+								security solution
+							</h2>
+							<p>
+								For each of your devices, choose one option of
+								hardware and one option for our proprietary
+								software.
+							</p>
+						</div>
+					</div>
+
+					<div class="row options-selector">
+						<div class="col-8 hardware">
+							<p><small>Hardware Options</small></p>
+							<ul class="option-list">
+								<li>
+									<a
+										href="https://www.stoptheft.com/sp"
+										class="stretch-link"
+									></a>
+									<div class="hardware-image">
+										<img src="{{ file_url(directory ~ '/images/hardware-1.png') }}">
+									</div>
+									<h5>STOP Security Plate</h5>
+									<p>
+										<em>For laptops and large tablets</em>
+									</p>
+								</li>
+								<li>
+									<a
+										href="https://www.stoptheft.com/products/small-stop-security-plate"
+										class="stretch-link"
+									></a>
+									<div class="hardware-image">
+										<img src="{{ file_url(directory ~ '/images/hardware-2.png') }}">
+									</div>
+									<h5>STOP Small Security Plate</h5>
+									<p>
+										<em
+											>For phones, cameras, tablets, and
+											more</em
+										>
+									</p>
+								</li>
+								<li>
+									<a
+										href="https://www.stoptheft.com/products/stoplock"
+										class="stretch-link"
+									></a>
+									<div class="hardware-image">
+										<img src="{{ file_url(directory ~ '/images/hardware-3.png') }}">
+									</div>
+									<h5>STOP Lock</h5>
+									<p>
+										<em
+											>For devices that need to be locked
+											down for the highest level of
+											security</em
+										>
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-4 software">
+							<p><small>Software Options</small></p>
+							<ul class="option-list">
+								<li>
+									<a
+										href="https://www.stoptheft.com/stop-monitor-standard"
+										class="stretch-link"
+									></a>
+									<div class="software-image">
+										<img src="{{ file_url(directory ~ '/images/software-1.png') }}">
+									</div>
+									<h5>Stop Monitor Standard</h5>
+									<p>
+										<em
+											>Real-time asset tracking and
+											geolocation</em
+										>
+									</p>
+								</li>
+								<li>
+									<a
+										href="https://www.stoptheft.com/stop-monitor"
+										class="stretch-link"
+									></a>
+									<div class="software-image">
+										<img src="{{ file_url(directory ~ '/images/software-2.png') }}">
+									</div>
+									<h5>STOP Monitor Pro</h5>
+									<p>
+										<em
+											>Enhanced protection with a precise
+											geolocation and reversible
+											encryption and bootlock</em
+										>
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="content-section recovery-stories">
+				<div class="container">
+					<div class="row">
+						<div class="col-7 intro">
+							<h2>Recent Recovery Stories</h2>
+							<p>
+								The laptops and devices in the STOP system that
+								were recovered and returned to the owner after
+								being stolen or lost.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col recovery-story-slider-wrapper">
+							<div
+								class="splide recovery-story-slider"
+								role="group"
+								aria-label="STOP Recent Recovery Stories"
+							>
+								<div class="splide__track">
+									<ul class="splide__list">
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>21 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														Good Samaritan called
+														STOP&trade;s 24/7
+														Recovery Hotline to
+														report he found a
+														STOP-tagged laptop. the
+														STOP ID Number provided
+														by the caller indicated
+														this laptop was disposed
+														of by the previously
+														registered owner. This
+														item is free & clear.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USL77193</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>18 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														FedEx Lost & Found agent
+														called STOP&trade;s 24/7
+														Recovery Hotline to
+														report they recovered a
+														STOP-tagged laptop
+														inside a sealed carton
+														that was missing a FedEx
+														shipping label. Agent
+														provided the STOP ID
+														Number, which enabled
+														STOP to quickly identify
+														the registered owner, a
+														large healthcare
+														enterprise. STOP
+														notified the
+														administrator, and
+														recovery process is
+														underway.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USA400211</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>17 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														A FedEx agent called
+														STOP&trade;s 24/7
+														Recovery Hotline to
+														report that a
+														STOP-tagged laptop was
+														separated from its
+														shipping label in
+														transit. The agent
+														provided the STOP ID
+														Number on laptop, which
+														helped STOP identify the
+														registered owner, a
+														large corporate
+														enterprise. STOP
+														notified the
+														investigative team at
+														the enterprise, and
+														recovery process is
+														underway.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USL77193</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>10 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														Good Samaritan contacted
+														STOP through our offline
+														alert system to report
+														that she recovered a
+														STOP-tagged laptop that
+														had fallen off the back
+														of a truck along with
+														several other untagged
+														devices. STOP identified
+														the registered owner, a
+														university, and reached
+														out to the STOP program
+														administrator there to
+														verify ownership status
+														and arrange recovery if
+														still active inventory.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USN19849</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>21 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														Good Samaritan called
+														STOP&trade;s 24/7
+														Recovery Hotline to
+														report he found a
+														STOP-tagged laptop. the
+														STOP ID Number provided
+														by the caller indicated
+														this laptop was disposed
+														of by the previously
+														registered owner. This
+														item is free & clear.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USL77193</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>18 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														FedEx Lost & Found agent
+														called STOP&trade;s 24/7
+														Recovery Hotline to
+														report they recovered a
+														STOP-tagged laptop
+														inside a sealed carton
+														that was missing a FedEx
+														shipping label. Agent
+														provided the STOP ID
+														Number, which enabled
+														STOP to quickly identify
+														the registered owner, a
+														large healthcare
+														enterprise. STOP
+														notified the
+														administrator, and
+														recovery process is
+														underway.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USA400211</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>17 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														A FedEx agent called
+														STOP&trade;s 24/7
+														Recovery Hotline to
+														report that a
+														STOP-tagged laptop was
+														separated from its
+														shipping label in
+														transit. The agent
+														provided the STOP ID
+														Number on laptop, which
+														helped STOP identify the
+														registered owner, a
+														large corporate
+														enterprise. STOP
+														notified the
+														investigative team at
+														the enterprise, and
+														recovery process is
+														underway.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USL77193</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>10 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														Good Samaritan contacted
+														STOP through our offline
+														alert system to report
+														that she recovered a
+														STOP-tagged laptop that
+														had fallen off the back
+														of a truck along with
+														several other untagged
+														devices. STOP identified
+														the registered owner, a
+														university, and reached
+														out to the STOP program
+														administrator there to
+														verify ownership status
+														and arrange recovery if
+														still active inventory.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USN19849</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>21 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														Good Samaritan called
+														STOP&trade;s 24/7
+														Recovery Hotline to
+														report he found a
+														STOP-tagged laptop. the
+														STOP ID Number provided
+														by the caller indicated
+														this laptop was disposed
+														of by the previously
+														registered owner. This
+														item is free & clear.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USL77193</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>18 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														FedEx Lost & Found agent
+														called STOP&trade;s 24/7
+														Recovery Hotline to
+														report they recovered a
+														STOP-tagged laptop
+														inside a sealed carton
+														that was missing a FedEx
+														shipping label. Agent
+														provided the STOP ID
+														Number, which enabled
+														STOP to quickly identify
+														the registered owner, a
+														large healthcare
+														enterprise. STOP
+														notified the
+														administrator, and
+														recovery process is
+														underway.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USA400211</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>17 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														A FedEx agent called
+														STOP&trade;s 24/7
+														Recovery Hotline to
+														report that a
+														STOP-tagged laptop was
+														separated from its
+														shipping label in
+														transit. The agent
+														provided the STOP ID
+														Number on laptop, which
+														helped STOP identify the
+														registered owner, a
+														large corporate
+														enterprise. STOP
+														notified the
+														investigative team at
+														the enterprise, and
+														recovery process is
+														underway.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USL77193</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="recovery-story">
+												<div class="recovery-date">
+													<strong>10 Apr 2023</strong>
+												</div>
+												<div class="recovery-body">
+													<p>
+														Good Samaritan contacted
+														STOP through our offline
+														alert system to report
+														that she recovered a
+														STOP-tagged laptop that
+														had fallen off the back
+														of a truck along with
+														several other untagged
+														devices. STOP identified
+														the registered owner, a
+														university, and reached
+														out to the STOP program
+														administrator there to
+														verify ownership status
+														and arrange recovery if
+														still active inventory.
+													</p>
+												</div>
+												<div class="recovery-id">
+													<p>
+														<strong
+															>USN19849</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="content-section clients">
+				<div class="container">
+					<div class="row">
+						<div class="col intro">
+							<h2>
+								Our clients put their trust in our security
+								solution.
+							</h2>
+							<a
+								href="#"
+								class="btn btn-text btn-text-white arrow-right"
+								>View all</a
+							>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col client-slider-wrapper">
+							<div
+								class="splide client-slider"
+								role="group"
+								aria-label="STOP Clients"
+							>
+								<div class="splide__track">
+									<ul class="splide__list">
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_nyt.png') }}"
+													alt="New York Times"
+													width="52"
+													height="65"
+													style="opacity: 0.6"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_ftc.png') }}"
+													alt="Federal Trade Commission"
+													width="109"
+													height="109"
+													style="opacity: 0.7"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_proctor_and_gamble.png') }}"
+													alt="Proctor and Gamble"
+													width="90"
+													height="42"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_dod.png') }}"
+													alt="Department of Defense"
+													width="282"
+													height="49"
+													style="opacity: 0.6"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_ge.png') }}"
+													alt="General Electric"
+													width="82"
+													height="83"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_columbia-university.png') }}"
+													alt="Columbia University"
+													width="99"
+													height="99"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_nyt.png') }}"
+													alt="New York Times"
+													width="52"
+													height="65"
+													style="opacity: 0.6"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_ftc.png') }}"
+													alt="Federal Trade Commission"
+													width="109"
+													height="109"
+													style="opacity: 0.7"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_proctor_and_gamble.png') }}"
+													alt="Proctor and Gamble"
+													width="90"
+													height="42"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_dod.png') }}"
+													alt="Department of Defense"
+													width="282"
+													height="49"
+													style="opacity: 0.6"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_ge.png') }}"
+													alt="General Electric"
+													width="82"
+													height="83"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_columbia-university.png') }}"
+													alt="Columbia University"
+													width="99"
+													height="99"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_nyt.png') }}"
+													alt="New York Times"
+													width="52"
+													height="65"
+													style="opacity: 0.6"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_ftc.png') }}"
+													alt="Federal Trade Commission"
+													width="109"
+													height="109"
+													style="opacity: 0.7"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_proctor_and_gamble.png') }}"
+													alt="Proctor and Gamble"
+													width="90"
+													height="42"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_dod.png') }}"
+													alt="Department of Defense"
+													width="282"
+													height="49"
+													style="opacity: 0.6"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_ge.png') }}"
+													alt="General Electric"
+													width="82"
+													height="83"
+												/>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-logo">
+												<img
+													src="{{ file_url(directory ~ '/images/logo_columbia-university.png') }}"
+													alt="Columbia University"
+													width="99"
+													height="99"
+												/>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="content-section client-quotes">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 intro">
+							<h2>Words from our clients</h2>
+						</div>
+						<div class="col-8 client-quotes-slider-wrapper">
+							<a href="#" class="btn btn-text arrow-right"
+								>View all</a
+							>
+							<div
+								class="splide client-quote-slider"
+								role="group"
+								aria-label="STOP Client Quotes"
+							>
+								<div class="splide__track">
+									<ul class="splide__list">
+										<li class="splide__slide">
+											<div class="client-testimonial">
+												<div class="client-quote">
+													<p>
+														<em
+															>&ldquo;Since
+															implementing the
+															STOP solution, the
+															loss rate of our
+															laptops dropped from
+															an average of three
+															per year to zero. We
+															haven&rsquo;t
+															experienced a single
+															loss since the
+															introduction of your
+															product. The STOP
+															plates proved to be
+															an easy solution to
+															a costly
+															problem.&rdquo;</em
+														>
+													</p>
+												</div>
+												<div class="client-name">
+													<p>
+														<strong
+															>Keith Rickles,
+															Regional IT Manager,
+															Lehigh Cement
+															Southern
+															Division</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-testimonial">
+												<div class="client-quote">
+													<p>
+														<em
+															>&ldquo;Since
+															implementing the
+															STOP solution, the
+															loss rate of our
+															laptops dropped from
+															an average of three
+															per year to zero. We
+															haven&rsquo;t
+															experienced a single
+															loss since the
+															introduction of your
+															product. The STOP
+															plates proved to be
+															an easy solution to
+															a costly problem.
+															2&rdquo;</em
+														>
+													</p>
+												</div>
+												<div class="client-name">
+													<p>
+														<strong
+															>Keith Rickles 2,
+															Regional IT Manager,
+															Lehigh Cement
+															Southern
+															Division</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li class="splide__slide">
+											<div class="client-testimonial">
+												<div class="client-quote">
+													<p>
+														<em
+															>&ldquo;Since
+															implementing the
+															STOP solution, the
+															loss rate of our
+															laptops dropped from
+															an average of three
+															per year to zero. We
+															haven&rsquo;t
+															experienced a single
+															loss since the
+															introduction of your
+															product. The STOP
+															plates proved to be
+															an easy solution to
+															a costly problem.
+															3&rdquo;</em
+														>
+													</p>
+												</div>
+												<div class="client-name">
+													<p>
+														<strong
+															>Keith Rickles 3,
+															Regional IT Manager,
+															Lehigh Cement
+															Southern
+															Division</strong
+														>
+													</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="content-section tracking-form">
+				<div class="container">
+					<form>
+						<div class="row row-cols-lg-auto align-items-center">
+							<div class="col-12">
+								<h2>Have a STOP Security Plate?</h2>
+							</div>
+							<div class="col-12">
+								<label class="visually-hidden" for="tracking-id">Enter ID#</label>
+								<input type="text" class="form-control" id="tracking-id" placeholder="Enter ID#" />
+							</div>
+							<div class="col-12">
+								<button type="submit" class="btn btn-white-outline arrow-right">Bought</button>
+							</div>
+							<div class="col-12">
+								<button type="submit" class="btn btn-white-outline arrow-right">Found</button>
+							</div>
+							<div class="col-12">
+								<button type="submit" class="btn btn-white-outline arrow-right">Lost</button>
+							</div>
+							<div class="col-12">
+								<button type="submit" class="btn btn-white-outline arrow-right">Inquire</button>
+							</div>
+					</form>
+				</div>
+			</section>
+        {{ page.content }}
+    </main>
+
+    <footer>
+        {% include '@mytheme/includes/footer.html.twig' %}
+    </footer>
+
+    {{ page.bottom }}
+</body>
+</html>
